@@ -23,3 +23,26 @@
 **03/01/2022**
 - Investigate the effects of [[franceschi_2020]] using fordA as a source with reference to [[fawaz_2018]].
 - Start writing out the points for the lit review, and how each paper connects to the next. Also decide which _order_ to write in, (as topological as possible?)
+
+**04/01/2022**
+- Read review papers on transfer learning and TSC to get good motivations for intro
+- Bullet out the rest of intro + background section (all those definitions + decide what's relevant)
+- Bullet out the source selection section + see if any other relevant methods
+- Try figure out if I have enough _content_ for the main lit review or if I need to find more papers ...
+
+**05/01/2022**
+- Get proper set of performance results
+- Bullet out remaining sections
+
+**06/01/2022**
+- Write draft for Pavlos ASAP
+
+**07/01/2022**
+- Fill out bullets for intro & background sections
+- Fill out bullets for conclusion
+- Proof read, look out for:
+	- Does each section contribute to / answer a research question?
+	- Does it feel like each research question has been appropriately covered?
+	- Am I answering anything else implicitly?
+	- Is there enough evaluation & examination of the chosen papers?
+- Cross-reference the paper with the rubric + guidelines

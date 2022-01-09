@@ -22,11 +22,23 @@
 - Intro
 	- Motivation
 		- Why TSC?
-		- Why TL?
+			- Time series encompasses a broad range of problems: 
+			- [[langkvist_2014.pdf]] says most real-world data has a temporal component.
+			- Examples include EHRs [[gupta_2021.pdf]], acoustic signals [[cite needed]], and ... [something]
 		- Why deep learning models?
+			- Traditional methods involve ...
+			- DL recently show promise for TSC [[fawaz_2019.pdf]]
+			- generally more efficient than other methods (COTE)
+			- ability to transfer + fine-tune
+		- Why TL?
+			- (high-level definition)
+			- Huge success in NLP (bert, GPT), CV
+			- Sparse label situations (common)
+			- Tuning to individuals e.g. patients, devices etc.
 	- Research questions
 		- To what degree, and under what conditions, is knowledge transferable between time series datasets?
-		- What models currently exist that enable us to do this, and how should a data scientist decide which one to choose based on the task at hand?
+		- What models currently exist that enable us to do this?
+		- How should a data scientist decide which one to choose based on the task at hand?
 	- What's to come
 - Background
 	- What is TSC
@@ -58,4 +70,5 @@
 - Call for some experiments to be done on transferability across these models where the _source is the same_. All these experiments use different sources, making it hard to compare.
 - Look at how fordA as a source dataset interacts with the target datasets of [[franceschi_2020]] according to [[fawaz_2018]].
 - Investigate scaling of performance increase relative to amount of (unsupervised) training data.
+- It seems that any time they train on large number of datasets there's net positive transfer: the negative transfer comes when it's small source dataset.
 
